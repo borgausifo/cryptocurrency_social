@@ -31,7 +31,7 @@ from tweepy.streaming import StreamListener
 class TweetListener(StreamListener):
     def on_data(self, data):
         try:
-            with open('lilly.json', 'a') as f:
+            with open('tweets.json', 'a') as f:
                 f.write(data)
                 return True
         except BaseException as e:
