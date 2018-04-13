@@ -8,10 +8,10 @@ import operator
 from collections import Counter
 
 # This are the keys that I generated from my twitter api
-consumer_key = 'FXtSENUCHNE1likCz6woYaPv3'
-consumer_secret = 'fGCduI5DuR9GGVpzY3axAbLRA2bWnV5A79EM58zqFiI3zmm4Kw'
-access_token = '970709949176340480-EcGqsfSLFPQV72FfG8RtW3HZc79mKoP'
-access_secret = '4zNZIQkJN5Mgcy1bly9QChx9U2JoNgmFRBIxaJxDh464D'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 
 auth = OAuthHandler(consumer_key, consumer_secret)
